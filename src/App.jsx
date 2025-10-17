@@ -16,9 +16,9 @@ function App() {
 
       <section className='hero-section'>
         <div className='images'>
-          <img src="./src/assets/img/foto-1-.png" alt="" />
-          <img src="./src/assets/img/foto-2.png" alt="" />
-          <img src="./src/assets/img/foto-4.png" alt="" />
+          <img src="./foto-1-.png" alt="" />
+          <img src="./foto-2.png" alt="" />
+          <img src="./foto-4.png" alt="" />
         </div>
       </section>
     </>
