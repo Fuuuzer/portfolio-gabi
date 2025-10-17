@@ -1,0 +1,55 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  color: #fff;
+
+  h1 {
+    justify-self: center;
+    font-size: 2.5rem;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    padding: 5px 15px;
+    font-size: 1.15rem;
+    font-weight: 500;
+    gap: 10px;
+    cursor: pointer;
+
+    img {
+      display: block;
+      max-width: 100%;
+      width: 30px;
+    }
+  }
+
+  div {
+    justify-self: start;
+    font-size: 1.25rem;
+    position: relative;
+    /* border: 1px solid red; */
+    padding: 10px 25px;
+
+    p {
+      font-size: 1.15rem;
+    }
+
+    .star {
+      display: block;
+      position: absolute;
+      /* border: 1px solid red; */
+      padding: 20px;
+      left: -25px;
+      bottom: -30px;
+    }
+  }
+}

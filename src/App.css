@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 6rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  img {
+    max-width: 300px;
+  }
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 20px;
+      width: 50ch;
+      font-weight: normal;
+    }
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -1.5rem;
+  }
+}
+
+.hero-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+
+  .images {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+
+    img {
+      display: block;
+      max-width: 350px;
+    }
+  }
+}
