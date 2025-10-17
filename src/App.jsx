@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <main className='container'>
-        <img src="./src/assets/img/gabrielle.png" alt="" />
+        <img src="./gabrielle.png" alt="" />
         <div className='about-me'>
           <h1>SOBRE MIM</h1>
           <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade.Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado :)</p>
