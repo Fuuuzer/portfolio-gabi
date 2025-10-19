@@ -10,6 +10,7 @@
   h1 {
     justify-self: center;
     font-size: 2.5rem;
+    font-weight: 400;
   }
 
   button {
@@ -24,6 +25,10 @@
     font-weight: 500;
     gap: 10px;
     cursor: pointer;
+
+    &:hover {
+      background: #525252;
+    }
 
     img {
       display: block;

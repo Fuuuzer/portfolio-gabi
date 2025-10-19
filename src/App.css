@@ -5,24 +5,23 @@
 .container {
   max-width: 1300px;
   margin: 0 auto;
-  margin-top: 10rem;
-  color: #fff;
+  height: 90dvh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 50px;
-
-  img {
-    /* display: block; */
-    /* max-width: 100%; */
-  }
+  color: #fff;
+  /* border: 1px solid red; */
 
   .about-me {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: 20px;
     animation: animaLeft 0.5s ease-in-out;
     /* opacity: 0; */
+
+    img {
+      display: block;
+      width: 100%;
+    }
 
     h1 {
       font-size: 3rem;
@@ -47,22 +46,17 @@
 }
 
 .hero-section {
-  max-width: 1300px;
+  max-width: 1600px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 4rem;
-  margin-top: 10rem;
 
-  .images {
-    /* display: flex; */
-    /* gap: 20px; */
-    /* max-width: 100%; */
+  div.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 
     img {
       display: block;
-      /* max-width: 350px; */
+      /* max-width: 100%; */
     }
   }
 }
