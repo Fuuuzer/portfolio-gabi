@@ -5,20 +5,24 @@
 .container {
   max-width: 1300px;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 10rem;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  position: relative;
+
   img {
-    max-width: 300px;
+    /* display: block; */
+    /* max-width: 100%; */
   }
+
   .about-me {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    animation: animaLeft 0.5s ease-in-out;
+    /* opacity: 0; */
 
     h1 {
       font-size: 3rem;
@@ -26,12 +30,12 @@
     }
 
     p {
-      font-size: 20px;
+      font-size: 24px;
       width: 50ch;
-      font-weight: normal;
+      font-weight: 200;
     }
   }
-  &::after {
+  /* &::after {
     content: "";
     display: block;
     width: 20px;
@@ -39,7 +43,7 @@
     background: #fff;
     position: absolute;
     bottom: -1.5rem;
-  }
+  } */
 }
 
 .hero-section {
@@ -49,16 +53,28 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
-  margin-top: 4rem;
+  margin-top: 10rem;
 
   .images {
-    display: flex;
-    gap: 20px;
-    max-width: 100%;
+    /* display: flex; */
+    /* gap: 20px; */
+    /* max-width: 100%; */
 
     img {
       display: block;
-      max-width: 350px;
+      /* max-width: 350px; */
     }
+  }
+}
+
+@keyframes animaLeft {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
