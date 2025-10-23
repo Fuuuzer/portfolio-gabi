@@ -20,7 +20,7 @@ function App() {
         <div className='images'>
           <img src="./fotoElton.png" alt="" />
           <img src="./Frame-1.png" alt="" />
-          <img src="./Foto-2.png" alt="" />
+          <img src="./foto-2.png" alt="" />
         </div>
       </section>
 
