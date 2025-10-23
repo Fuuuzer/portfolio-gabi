@@ -19,7 +19,7 @@ function App() {
       <section className='hero-section'>
         <div className='images'>
           <img src="./fotoElton.png" alt="" />
-          <img src="./Frame-1.png" alt="" />
+          {/* <img src="./Frame-1.png" alt="" /> */}
           <img src="./foto-2.png" alt="" />
         </div>
       </section>
