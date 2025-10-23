@@ -24,7 +24,24 @@ function App() {
         </div>
       </section>
 
-      <section></section>
+      <section className='ensaios-section'>
+        <div className='ensaio'>
+          <img src="./GiovanaEFernando.png" alt="" />
+          <div>
+            <p className='title'>Giovana & Fernando</p>
+            <p className='description'>Ensaio de Casal</p>
+          </div>
+        </div>
+
+        <div className='ensaio-aniversario'>
+          <img src="./aniversarioLuiza.png" alt="" />
+          <div>
+            <p className='title'>Aniversário Luiza</p>
+            <p className='description'>Ensaio de Casal</p>
+          </div>
+        </div>
+
+      </section>
     </>
   )
 }

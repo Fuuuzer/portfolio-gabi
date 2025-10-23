@@ -2,9 +2,11 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 0 auto;
   margin-top: 1rem;
+  /* border: 1px solid red; */
+
   color: #fff;
 
   h1 {
