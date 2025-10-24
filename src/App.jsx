@@ -1,10 +1,16 @@
 import './App.css'
 import Header from './components/Header'
+import { ReactLenis, useLenis } from 'lenis/react'
+
 
 function App() {
+  const lenis = useLenis((lenis) => {
+    console.log(lenis)
+  })
 
   return (
     <>
+      <ReactLenis root />
       <Header />
       <main className='container'>
         <div className='about-me'>
