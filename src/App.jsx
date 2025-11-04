@@ -31,7 +31,8 @@ function App() {
       </section>
 
       <section className='ensaios-section'>
-        <div className='ensaio'>
+        <h2 className='ensaios-title'>Trabalhos Recentes</h2>
+        <div className='ensaio-namorados'>
           <img src="./GiovanaEFernando.png" alt="" />
           <div>
             <p className='title'>Giovana & Fernando</p>

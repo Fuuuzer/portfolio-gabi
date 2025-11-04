@@ -20,7 +20,7 @@
     align-items: center;
     justify-self: end;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     background: #fff;
     padding: 5px 15px;
     font-size: 1.15rem;
@@ -29,7 +29,7 @@
     cursor: pointer;
 
     &:hover {
-      background: #525252;
+      background: #eeeeee;
     }
 
     img {
