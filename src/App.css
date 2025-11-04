@@ -39,15 +39,6 @@
       font-weight: 200;
     }
   }
-  /* &::after {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    bottom: -1.5rem;
-  } */
 }
 
 .hero-section {
@@ -75,74 +66,52 @@
 
   .ensaios-title {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
   }
+
   .ensaio-namorados {
-    /* background: #fff; */
-    display: flex;
-    align-items: end;
-    position: relative;
-    margin-bottom: 100px;
-
-    &::after {
-      content: "";
-      display: block;
-      width: 200%;
-      justify-self: left;
-      height: 100px;
-      position: absolute;
-      left: -50%;
-      bottom: -100px;
-    }
-
-    img {
-      display: block;
-      max-width: 100%;
-      position: relative;
-    }
-
-    div {
-      font-family: "Manrope", sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      /* border: 1px solid red; */
-      margin-left: 1rem;
-      gap: 10px;
-
-      p {
-        font-family: "Manrope", sans-serif;
-      }
-
-      .title {
-        font-size: 2rem;
-        position: relative;
-        /* border: 1px solid red; */
-        font-weight: bold;
-
-        &::after {
-          content: "";
-          display: block;
-          width: 50px;
-          height: 100px;
-          background: #fff;
-          position: absolute;
-          left: -50px;
-          top: 10px;
-          z-index: -2;
-        }
-      }
-
-      .description {
-        font-size: 1.15rem;
+    .title {
+      &::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 150px;
+        background: #fff;
+        position: absolute;
+        left: -50px;
+        top: 10px;
+        z-index: -2;
       }
     }
   }
 
   .ensaio-aniversario {
+    flex-direction: row-reverse;
+    gap: 1rem;
+    .title {
+      &::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 150px;
+        background: #fff;
+        position: absolute;
+        right: -50px;
+        top: 10px;
+        z-index: -2;
+      }
+    }
+
+    .description {
+      align-self: flex-end;
+    }
+  }
+  .ensaio-namorados,
+  .ensaio-aniversario {
     /* background: #fff; */
     display: flex;
-    flex-direction: row-reverse;
     align-items: end;
     position: relative;
     margin-bottom: 100px;
@@ -161,7 +130,7 @@
 
     img {
       display: block;
-      max-width: 38%;
+      max-width: 100%;
       position: relative;
     }
 
@@ -169,49 +138,39 @@
       font-family: "Manrope", sans-serif;
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
       /* border: 1px solid red; */
-      margin-right: 1rem;
-      gap: 10px;
+      margin-left: 1rem;
 
       p {
         font-family: "Manrope", sans-serif;
       }
 
       .title {
+        color: #fff;
         font-size: 2rem;
         position: relative;
         /* border: 1px solid red; */
         font-weight: bold;
-
-        &::after {
-          content: "";
-          display: block;
-          width: 50px;
-          height: 100px;
-          background: #fff;
-          position: absolute;
-          right: -50px;
-          top: 10px;
-          z-index: -2;
-        }
       }
 
       .description {
+        color: #fff;
         font-size: 1.15rem;
-        text-align: right;
+        margin-bottom: 50px;
       }
     }
   }
-}
 
-@keyframes animaLeft {
-  from {
-    transform: translateX(-20px);
-    opacity: 0;
-  }
+  @keyframes animaLeft {
+    from {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
 
-  to {
-    opacity: 1;
-    transform: translateX(0px);
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
 }
