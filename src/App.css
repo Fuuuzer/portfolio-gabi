@@ -49,28 +49,6 @@ img {
   }
 }
 
-.hero-section {
-  max-width: 1300px;
-  margin: 0 auto;
-  /* border: 1px solid red; */
-  margin-bottom: 15rem;
-
-  div.images {
-    max-width: 1300px;
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-
-    img {
-      display: block;
-      max-width: 30%;
-      width: 500px;
-      border-radius: 4px;
-      object-fit: cover;
-    }
-  }
-}
-
 .ensaios-section {
   width: 1300px;
   margin: 0 auto;
@@ -82,70 +60,27 @@ img {
     font-weight: 300;
     margin-bottom: 1.5rem;
   }
-
-  .ensaio-namorados {
-    .title {
-      &::after {
-        content: "";
-        display: block;
-        width: 50px;
-        height: 150px;
-        background: #fff;
-        position: absolute;
-        left: -50px;
-        top: 10px;
-        z-index: -2;
-      }
-    }
-  }
-
-  .ensaio-aniversario {
+  & > div:nth-child(even) {
     flex-direction: row-reverse;
-    gap: 1rem;
-    .title {
-      &::after {
-        content: "";
-        display: block;
-        width: 50px;
-        height: 150px;
-        background: #fff;
-        position: absolute;
-        right: -50px;
-        top: 10px;
-        z-index: -2;
-      }
-    }
+  }
 
-    .description {
-      align-self: flex-end;
+  & > div:nth-child(3) {
+    img {
+      width: 700px;
     }
   }
-  .ensaio-namorados,
-  .ensaio-aniversario {
-    /* background: #fff; */
+
+  .ensaio {
     display: flex;
     align-items: end;
     position: relative;
     margin-bottom: 100px;
-
-    &::after {
-      content: "";
-      display: block;
-      width: 200%;
-      justify-self: left;
-      height: 100px;
-      background: #fff;
-      position: absolute;
-      left: -50%;
-      bottom: -100px;
-    }
-
     img {
       display: block;
       max-width: 100%;
       width: 500px;
       position: relative;
-      border-radius: 0px 0px 4px 4px;
+      border-radius: 4px;
     }
 
     div {

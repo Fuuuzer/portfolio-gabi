@@ -23,18 +23,28 @@ function App() {
           </div>
         </div>
       </main>
-
-      <section className='hero-section'>
-        <div className='images'>
-          <img src="./foto-3.jpeg" alt="" />
-          <img src="./foto-3.jpeg" alt="" />
-          <img src="./foto-1.jpeg" alt="" />
-        </div>
-      </section>
-
       <section className='ensaios-section'>
         <h2 className='ensaios-title'>Trabalhos Recentes</h2>
-        <div className='ensaio-namorados'>
+
+        <div className='ensaio'>
+          <img src="./belo.jpg" alt="" />
+          <div>
+            <p className='title'>Giovana & Fernando</p>
+            <p className='description'>Ensaio de Casal</p>
+          </div>
+        </div>
+
+
+        <div className='ensaio'>
+          <img src="./duda.jpg" alt="" />
+          <div>
+            <p className='title'>Giovana & Fernando</p>
+            <p className='description'>Ensaio de Casal</p>
+          </div>
+        </div>
+
+
+        <div className='ensaio'>
           <img src="./GiovanaEFernando.jpg" alt="" />
           <div>
             <p className='title'>Giovana & Fernando</p>
@@ -42,7 +52,7 @@ function App() {
           </div>
         </div>
 
-        <div className='ensaio-aniversario'>
+        <div className='ensaio'>
           <img src="./aniversarioLuiza.jpg" alt="" />
           <div>
             <p className='title'>Aniversário Luiza</p>
