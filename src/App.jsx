@@ -29,8 +29,8 @@ function App() {
         <div className='ensaio'>
           <img src="./belo.jpg" alt="" />
           <div>
-            <p className='title'>Giovana & Fernando</p>
-            <p className='description'>Ensaio de Casal</p>
+            <p className='title'>Festival Feijoada com Samba</p>
+            <p className='description'>Eventos e Festivais</p>
           </div>
         </div>
 
@@ -38,17 +38,8 @@ function App() {
         <div className='ensaio'>
           <img src="./duda.jpg" alt="" />
           <div>
-            <p className='title'>Giovana & Fernando</p>
-            <p className='description'>Ensaio de Casal</p>
-          </div>
-        </div>
-
-
-        <div className='ensaio'>
-          <img src="./GiovanaEFernando.jpg" alt="" />
-          <div>
-            <p className='title'>Giovana & Fernando</p>
-            <p className='description'>Ensaio de Casal</p>
+            <p className='title'>Eduarda Bolzan</p>
+            <p className='description'>Ensaio pessoal</p>
           </div>
         </div>
 
@@ -56,7 +47,15 @@ function App() {
           <img src="./aniversarioLuiza.jpg" alt="" />
           <div>
             <p className='title'>Aniversário Luiza</p>
-            <p className='description'>Ensaio de Aniversário</p>
+            <p className='description'>Aniversário</p>
+          </div>
+        </div>
+
+        <div className='ensaio'>
+          <img src="./GiovanaEFernando.jpg" alt="" />
+          <div>
+            <p className='title'>Giovana & Fernando</p>
+            <p className='description'>Ensaio de Casal</p>
           </div>
         </div>
 
