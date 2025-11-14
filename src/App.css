@@ -5,15 +5,17 @@
 
 img {
   display: block;
-  /* max-width: 100%; */
+  max-width: 100%;
+  min-width: 200px;
 }
 
 .container {
-  width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
   height: 80dvh;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  /* justify-content: center; */
   color: #fff;
   gap: 100px;
   position: relative;
@@ -50,9 +52,16 @@ img {
 }
 
 .ensaios-section {
-  width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
   color: white;
+
+  .ensaio {
+    img {
+      min-width: 100px;
+      object-fit: cover;
+    }
+  }
 
   .ensaios-title {
     font-size: 3rem;
