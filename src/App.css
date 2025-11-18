@@ -6,14 +6,14 @@
 img {
   display: block;
   max-width: 100%;
-  min-width: 200px;
 }
 
 .container {
   max-width: 1300px;
   margin: 0 auto;
-  height: 80dvh;
   display: flex;
+  height: 90dvh;
+  align-items: center;
   flex-wrap: wrap;
   /* justify-content: center; */
   color: #fff;
@@ -71,6 +71,16 @@ img {
   }
   & > div:nth-child(even) {
     flex-direction: row-reverse;
+
+    div {
+      margin-right: 1rem;
+    }
+  }
+
+  & > div:nth-child(odd) {
+    div {
+      margin-left: 1rem;
+    }
   }
 
   & > div:nth-child(3) {
@@ -98,7 +108,6 @@ img {
       flex-direction: column;
       align-items: flex-start;
       /* border: 1px solid red; */
-      margin-left: 1rem;
 
       p {
         font-family: "Manrope", sans-serif;

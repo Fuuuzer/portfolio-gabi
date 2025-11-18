@@ -9,6 +9,12 @@
 
   color: #fff;
 
+  img {
+    display: block;
+    max-width: 100%;
+    width: 30px;
+  }
+
   h1 {
     justify-self: center;
     font-size: 2.5rem;
@@ -30,12 +36,6 @@
 
     &:hover {
       background: #eeeeee;
-    }
-
-    img {
-      display: block;
-      max-width: 100%;
-      width: 30px;
     }
   }
 
