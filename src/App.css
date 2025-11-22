@@ -58,7 +58,10 @@ img {
 
   .ensaio {
     img {
-      min-width: 100px;
+      width: 50%;
+      max-width: 100%; /* Garante que a imagem não fique maior que o contêiner */
+      height: auto;
+      height: auto;
       object-fit: cover;
     }
   }
@@ -96,7 +99,7 @@ img {
     margin-bottom: 100px;
     img {
       display: block;
-      max-width: 100%;
+      width: 20vw;
       width: 500px;
       position: relative;
       border-radius: 4px;
@@ -138,6 +141,52 @@ img {
     to {
       opacity: 1;
       transform: translateX(0px);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 20vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 30dvh;
+
+    .about-me {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .img-wrapper {
+        display: none;
+        position: absolute;
+      }
+
+      div {
+        h1 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+
+  .ensaios-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    color: white;
+
+    .ensaio {
+      img {
+        width: 50vw;
+        height: 200px;
+        height: auto;
+        object-fit: cover;
+      }
     }
   }
 }
