@@ -14,21 +14,20 @@ function App() {
       <Header />
       <main className='container'>
         <div className='about-me'>
-          <div className='img-wrapper'>
-            <img src="./gabrielle.png" alt="" />
-          </div>
-          <div>
-            <h1>SOBRE MIM</h1>
+          <h2>Oie! :)</h2>
+          <div className=''>
+            <h1>Sobre mim</h1>
             <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade. Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado :)</p>
+            <img src="./gabrielle.png" alt="" />
           </div>
         </div>
       </main>
       <section className='ensaios-section'>
-        <h2 className='ensaios-title'>Trabalhos Recentes</h2>
+        {/* <h2 className='ensaios-title'>Trabalhos Recentes</h2> */}
 
         <div className='ensaio'>
-          <img src="./belo.jpg" alt="" />
           <div>
+            <img src="./belo.jpg" alt="" />
             <p className='title'>Festival Feijoada com Samba</p>
             <p className='description'>Eventos e Festivais</p>
           </div>
@@ -36,24 +35,24 @@ function App() {
 
 
         <div className='ensaio'>
-          <img src="./duda.jpg" alt="" />
           <div>
+            <img src="./duda.jpg" alt="" />
             <p className='title'>Eduarda Bolzan</p>
             <p className='description'>Ensaio pessoal</p>
           </div>
         </div>
 
         <div className='ensaio'>
-          <img src="./aniversarioLuiza.jpg" alt="" />
           <div>
+            <img src="./aniversarioLuiza.jpg" alt="" />
             <p className='title'>Aniversário Luiza</p>
             <p className='description'>Aniversário</p>
           </div>
         </div>
 
         <div className='ensaio'>
-          <img src="./GiovanaEFernando.jpg" alt="" />
           <div>
+            <img src="./GiovanaEFernando.jpg" alt="" />
             <p className='title'>Giovana & Fernando</p>
             <p className='description'>Ensaio de Casal</p>
           </div>
