@@ -34,7 +34,7 @@ function App() {
         </div>
 
 
-        <div className='ensaio-1'>
+        <div className='ensaio'>
           <img src="./duda.jpg" alt="" />
           <p className='title'>Eduarda Bolzan</p>
           <p className='description'>Ensaio pessoal</p>
