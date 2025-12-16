@@ -26,10 +26,14 @@ function App() {
       <section className='ensaios-section'>
         {/* <h2 className='ensaios-title'>Trabalhos Recentes</h2> */}
 
-        <div className='ensaio-1'>
-          <div className='ensaio-1-sobre'>
+        <div className='ensaio'>
+          <div className='img-after'>
+            <img src="./belo.jpg" alt="" />
+          </div>
+          <div className='ensaio-desc'>
             <p className='title'>Festival Feijoada com Samba</p>
-            <p className='description'> <img className='star' src={star} alt="" />Eventos e Festivais</p>
+            <img className='star' src={star} alt="" />
+            <p className='description'>Eventos e Festivais</p>
           </div>
         </div>
 
