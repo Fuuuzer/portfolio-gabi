@@ -80,7 +80,7 @@ function App() {
 
       </section>
 
-      <footer>João fuzer 2025</footer>
+      <footer>João Fuzer 2025</footer>
     </>
   )
 }
