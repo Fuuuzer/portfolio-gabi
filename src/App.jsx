@@ -6,12 +6,19 @@ import { ReactLenis, useLenis } from 'lenis/react'
 
 function App() {
   const lenis = useLenis((lenis) => {
-    console.log(lenis)
+    // console.log(lenis)
   })
 
   return (
     <>
-      <ReactLenis root />
+      <ReactLenis
+        root
+        options={{
+          duration: 1.2,
+          smoothWheel: true,
+          smoothTouch: false // Desativa smooth scroll no mobile se necessário
+        }}
+      />
       <Header />
       <main className='container'>
         <div className='about-container'>
@@ -39,23 +46,41 @@ function App() {
 
 
         <div className='ensaio'>
-          <img src="./duda.jpg" alt="" />
-          <p className='title'>Eduarda Bolzan</p>
-          <p className='description'>Ensaio pessoal</p>
+          <div className='img-after'>
+            <img src="./duda.jpg" alt="" />
+          </div>
+          <div className='ensaio-desc'>
+            <p className='title'>Eduarda Bolzan</p>
+            <img className='star' src={star} alt="" />
+            <p className='description'>Ensaio pessoal</p>
+          </div>
         </div>
 
         <div className='ensaio'>
-          <img src="./aniversarioLuiza.jpg" alt="" />
-          <p className='title'>Aniversário Luiza</p>
-          <p className='description'>Aniversário</p>
+          <div className='img-after'>
+            <img src="./aniversarioLuiza.jpg" alt="" />
+          </div>
+          <div className='ensaio-desc'>
+            <p className='title'>Aniversário Luiza</p>
+            <img className='star' src={star} alt="" />
+            <p className='description'>Aniversário</p>
+          </div>
         </div>
 
         <div className='ensaio'>
-          <img src="./GiovanaEFernando.jpg" alt="" />
-          <p className='title'>  Giovana & Fernando</p>
+          <div className='img-after'>
+            <img src="./GiovanaEFernando.jpg" alt="" />
+          </div>
+          <div className='ensaio-desc'>
+            <p className='title'>Giovana & Fernando</p>
+            <img className='star' src={star} alt="" />
+            <p className='description'>Ensaio de casal</p>
+          </div>
         </div>
 
       </section>
+
+      <footer>João fuzer 2025</footer>
     </>
   )
 }
