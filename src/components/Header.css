@@ -7,6 +7,11 @@
   color: #fff;
   position: relative;
 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   img {
     display: block;
     max-width: 100%;
@@ -80,9 +85,20 @@
   height: 100svh;
   z-index: 99;
 
-  p {
+  .contact {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid ed;
+    a {
+      display: flex;
+      gap: 10px;
+      position: relative;
+    }
+    .star {
+      position: absolute;
+      left: -40px;
+    }
   }
 }
 

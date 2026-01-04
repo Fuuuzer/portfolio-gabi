@@ -19,8 +19,12 @@ const Header = () => {
       </svg>
       {menuActive &&
         <div className='contact-container'>
-          <p><img className='star' src={star} alt="" />Contato</p>
-          <p><img className='star' src={star} alt="" />Me siga</p>
+          <div className='contact'>
+            <a target='_blank' href='https://wa.me/+5551999231968'><img className='star' src={star} alt="" />Contato</a>
+          </div>
+          <div className='contact'>
+            <a target='_blank' href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr'><img className='star' src={star} alt="" />Me siga</a>
+          </div>
         </div>}
 
 
