@@ -82,9 +82,9 @@
   position: absolute;
   top: 0;
   width: 100dvw;
-  height: 100svh;
+  height: 200svh;
   z-index: 99;
-  /* position: fixed; */
+  overflow-y: auto;
 
   .contact {
     display: flex;
