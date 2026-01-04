@@ -5,8 +5,19 @@ import whats from '../assets/img/WhatsApp.svg';
 
 const Header = () => {
   const [menuActive, setMenuActive] = React.useState(false);
-
+  React.useEffect(() => {
+    if (menuActive) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [menuActive]);
   return (
+
+
     <header className='header'>
       <div className='header-info'>
         <img className='star' src={star} alt="" />
