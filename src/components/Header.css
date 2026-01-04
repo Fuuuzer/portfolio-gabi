@@ -101,7 +101,7 @@
       position: absolute;
       /* border: 1px solid red; */
       left: -30px;
-      top: 2px;
+      bottom: 6px;
     }
   }
 }
