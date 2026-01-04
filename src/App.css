@@ -143,18 +143,37 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .ensaios-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 0 2rem 2rem;
+  .container {
+    max-width: 90vw;
+  }
+  .about-container {
+    h2 {
+      display: none;
+    }
   }
 
-  .ensaio {
-    max-width: 100%;
-  }
+  .about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    /* border: 1px solid red; */
 
-  .img-after {
-    height: 400px;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      /* border: 1px solid red; */
+    }
+    h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.3rem;
+      font-weight: 200;
+      max-width: 50ch;
+    }
   }
 }
