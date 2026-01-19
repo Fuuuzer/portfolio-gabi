@@ -22,7 +22,6 @@ function App() {
       <Header />
       <main className='container'>
         <div className='about-container'>
-          <h2>Oie! :)</h2>
           <div className='about'>
             <div>
               <h1>Oie :)</h1>
