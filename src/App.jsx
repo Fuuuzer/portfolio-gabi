@@ -74,7 +74,7 @@ function App() {
             <img src="./aniversarioLuiza.jpg" alt="" />
           </div>
           <div className='ensaio-desc'>
-            <p className='title'>Aniversário Luiza</p>
+            <p className='title'>20 Anos da Luiza</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Aniversário</p>
           </div>
