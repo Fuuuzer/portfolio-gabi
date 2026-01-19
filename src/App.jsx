@@ -24,8 +24,10 @@ function App() {
         <div className='about-container'>
           <h2>Oie! :)</h2>
           <div className='about'>
-            <h1>Sobre mim</h1>
-            <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade. Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado :)</p>
+            <div>
+              <h1>Sobre mim</h1>
+              <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade. Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado :)</p>
+            </div>
             <img src="./gabrielle.png" alt="" />
           </div>
         </div>
@@ -61,6 +63,17 @@ function App() {
             <img src="./aniversarioLuiza.jpg" alt="" />
           </div>
           <div className='ensaio-desc'>
+            <p className='title'>Cobertura do 52 Festival de Cinema de Gramado</p>
+            <img className='star' src={star} alt="" />
+            <p className='description'>Cobertura de Eventos</p>
+          </div>
+        </div>
+
+        <div className='ensaio'>
+          <div className='img-after'>
+            <img src="./aniversarioLuiza.jpg" alt="" />
+          </div>
+          <div className='ensaio-desc'>
             <p className='title'>Aniversário Luiza</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Aniversário</p>
@@ -77,7 +90,12 @@ function App() {
             <p className='description'>Ensaio de casal</p>
           </div>
         </div>
+      </section>
 
+      <section className='container'>
+        <p>Vamos conversar</p>
+        <p className='email'>gabriellepratinho@gmail.com</p>
+        <a href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr' className='insta'>Me siga</a>
       </section>
 
       <footer>João Fuzer 2025</footer>
