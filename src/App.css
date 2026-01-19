@@ -187,7 +187,7 @@ footer {
   }
 
   .about h1 {
-    font-size: 3.5rem; /* "SOBRE MIM" grande */
+    font-size: 3.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 1.5rem;
@@ -195,7 +195,7 @@ footer {
   .about p {
     font-size: 1.1rem;
     line-height: 1.6;
-    max-width: 500px; /* Evita que as linhas fiquem longas demais */
+    max-width: 500px;
     color: #cccccc;
   }
 
@@ -254,7 +254,7 @@ footer {
   }
 
   .ensaio-desc .title {
-    font-size: 2.2rem; /* Texto um pouco maior para destacar */
+    font-size: 2.2rem;
     margin-bottom: 5px;
   }
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import './Header.css'
 import star from '../assets/img/star.svg';
 import whats from '../assets/img/WhatsApp.svg';
