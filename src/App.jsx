@@ -60,7 +60,7 @@ function App() {
 
         <div className='ensaio'>
           <div className='img-after'>
-            <img src="./aniversarioLuiza.jpg" alt="" />
+            <img src="./festivalCinema.JPG" alt="" />
           </div>
           <div className='ensaio-desc'>
             <p className='title'>Cobertura do 52 Festival de Cinema de Gramado</p>
