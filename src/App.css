@@ -173,7 +173,7 @@ footer {
   .about {
     flex-direction: row;
     align-items: center;
-    gap: 4rem;
+    gap: 5rem;
     text-align: left;
     color: #fff;
   }
@@ -279,11 +279,5 @@ footer {
     justify-content: space-between;
     max-width: 1300px;
     margin: 0 auto;
-
-    div {
-      display: flex;
-      align-items: center;
-      gap: 0.8rem;
-    }
   }
 }
