@@ -235,6 +235,12 @@ footer {
     max-height: none;
   }
 
+  .img-after.duda {
+    flex: 0 0 50%;
+    height: 500px;
+    max-height: none;
+  }
+
   .img-after::after {
     display: none;
   }
@@ -242,7 +248,7 @@ footer {
   .ensaio-desc {
     position: static;
     flex: 1;
-    /* padding-bottom: 10px; */
+    padding-bottom: 30px;
   }
 
   .ensaio-desc .star {

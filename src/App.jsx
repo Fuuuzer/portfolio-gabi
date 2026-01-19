@@ -47,7 +47,7 @@ function App() {
 
 
         <div className='ensaio'>
-          <div className='img-after'>
+          <div className='img-after duda'>
             <img src="./duda.jpg" alt="" />
           </div>
           <div className='ensaio-desc'>
