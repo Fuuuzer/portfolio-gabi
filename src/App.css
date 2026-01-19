@@ -275,7 +275,15 @@ footer {
   }
 
   .container {
-    display: grid;
-    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
   }
 }

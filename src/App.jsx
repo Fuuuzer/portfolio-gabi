@@ -92,12 +92,18 @@ function App() {
       </section>
 
       <section className='container'>
-        <p>Vamos conversar</p>
+        <div>
+          <img src="./whats.svg" alt="" />
+          <p>Vamos conversar</p>
+        </div>
         <p className='email'>gabriellepratinho@gmail.com</p>
-        <a href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr' className='insta'>Me siga</a>
+        <div>
+          <img src="./insta.svg" alt="" />
+          <a href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr' className='insta'>Me siga</a>
+        </div>
       </section>
 
-      <footer>João Fuzer 2025</footer>
+      <footer>João Fuzer 2026</footer>
     </>
   )
 }
