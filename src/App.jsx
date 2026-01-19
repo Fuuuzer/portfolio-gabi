@@ -63,7 +63,7 @@ function App() {
             <img src="./festivalCinema.JPG" alt="" />
           </div>
           <div className='ensaio-desc'>
-            <p className='title'>Cobertura do 52 Festival de Cinema de Gramado</p>
+            <p className='title'>52º Festival de Cinema de Gramado</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Cobertura de Eventos</p>
           </div>
