@@ -16,7 +16,7 @@ function App() {
         options={{
           duration: 1.2,
           smoothWheel: true,
-          smoothTouch: false // Desativa smooth scroll no mobile se necessário
+          // smoothTouch: false // Desativa smooth scroll no mobile se necessário
         }}
       />
       <Header />
@@ -25,15 +25,13 @@ function App() {
           <div className='about'>
             <div>
               <h1>Oie :)</h1>
-              <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade. Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado :)</p>
+              <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade. Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado.</p>
             </div>
             <img src="./gabrielle.png" alt="" />
           </div>
         </div>
       </main>
       <section className='ensaios-section'>
-        {/* <h2 className='ensaios-title'>Trabalhos Recentes</h2> */}
-
         <div className='ensaio'>
           <div className='img-after'>
             <img src="./belo.jpg" alt="" />
