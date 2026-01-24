@@ -90,14 +90,21 @@ function App() {
       </section>
 
       <section className='container'>
-        <div>
+        <div className='contato-item'>
           <img src="./whats.svg" alt="" />
-          <p>Vamos conversar</p>
+          <a href='/'>Vamos conversar</a>
         </div>
-        <p className='email'>gabriellepratinho@gmail.com</p>
-        <div>
+        <div className='contato-item'>
           <img src="./insta.svg" alt="" />
           <a href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr' className='insta'>Me siga</a>
+        </div>
+        <div className='contato-item'>
+          <img src="./gmail.svg" alt="" />
+          <a href='' className='insta'>gabriellepratinho@gmail.com</a>
+        </div>
+        <div className='contato-item'>
+          <img src="./linkedin.svg" alt="" />
+          <a href='' className='insta'>Sobre mim</a>
         </div>
       </section>
 

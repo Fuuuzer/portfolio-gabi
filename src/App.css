@@ -14,7 +14,27 @@ img {
   margin: 0 auto;
   color: #cccccc;
   padding: 2rem 0;
+  margin-bottom: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  .contato-item {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    a {
+      text-decoration: none;
+      color: #cccccc;
+    }
+    &:last-child {
+      display: none;
+    }
+    img {
+      display: none;
+    }
+  }
 
   .email {
     text-decoration: underline;
@@ -276,8 +296,27 @@ footer {
 
   .container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    max-width: 1300px;
+    align-items: center;
+    max-width: 85dvw;
     margin: 0 auto;
+
+    .contato-item {
+      display: flex;
+      /* justify-content: space-between; */
+      align-items: center;
+      gap: 10px;
+      flex: 1;
+
+      &:last-child {
+        display: flex;
+        display: flex;
+      }
+
+      img {
+        display: inline-block;
+      }
+    }
   }
 }
