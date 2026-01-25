@@ -91,20 +91,20 @@ function App() {
 
       <section className='container'>
         <div className='contato-item'>
-          <img src="./whats.svg" alt="" />
-          <a href='/'>Vamos conversar</a>
+          <a href="https://wa.me/5551999231968" target='blank'><img src="./whats.svg" alt="" /></a>
+          <a className='contato-link' href="https://wa.me/5551999231968" target='blank'>Vamos conversar</a>
         </div>
         <div className='contato-item'>
-          <img src="./insta.svg" alt="" />
-          <a href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr' className='insta'>Me siga</a>
+          <a href="https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr" target='_blank'><img src="./insta.svg" alt="" /></a>
+          <a className='contato-link' href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr' target='_blank'>Me siga</a>
         </div>
         <div className='contato-item'>
           <img src="./gmail.svg" alt="" />
-          <a href='' className='insta'>gabriellepratinho@gmail.com</a>
+          <a className='contato-link insta' target='blank' href=''>gabriellepratinho@gmail.com</a>
         </div>
         <div className='contato-item'>
-          <img src="./linkedin.svg" alt="" />
-          <a href='' className='insta'>Sobre mim</a>
+          <a href="https://linkedin.com/in/gabrielle-prato-orezko-6b8198200" target='_blank'> <img src="./linkedin.svg" alt="" /></a>
+          <a href='https://linkedin.com/in/gabrielle-prato-orezko-6b8198200' className='contato-link' target='_blank'>Sobre mim</a>
         </div>
       </section>
 
