@@ -63,7 +63,7 @@ function App() {
 
         <div className='ensaio' data-aos="fade-up">
           <div className='img-after'>
-            <img src="./festivalCinema.jpg" alt="" />
+            <img src="./festivalCinema2.jpg" alt="" />
           </div>
           <div className='ensaio-desc'>
             <p className='title'>52º Festival de Cinema de Gramado</p>
