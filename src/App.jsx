@@ -2,13 +2,19 @@ import './App.css'
 import Header from './components/Header'
 import star from './assets/img/star.svg';
 import { ReactLenis, useLenis } from 'lenis/react'
+import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 function App() {
   const lenis = useLenis((lenis) => {
     // console.log(lenis)
   })
-
+  React.useEffect(() => {
+    Aos.init()
+  }, []);
   return (
     <>
       <ReactLenis
@@ -22,7 +28,7 @@ function App() {
       <Header />
       <main className='container'>
         <div className='about-container'>
-          <div className='about'>
+          <div className='about' data-aos="fade-up">
             <div>
               <h1>Oie :)</h1>
               <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade. Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado.</p>
@@ -31,12 +37,12 @@ function App() {
           </div>
         </div>
       </main>
-      <section className='ensaios-section'>
-        <div className='ensaio'>
+      <section className='ensaios-section' >
+        <div className='ensaio' data-aos="fade-up">
           <div className='img-after'>
             <img src="./belo.jpg" alt="" />
           </div>
-          <div className='ensaio-desc'>
+          <div className='ensaio-desc' >
             <p className='title'>Festival Feijoada com Samba</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Eventos e Festivais</p>
@@ -44,20 +50,20 @@ function App() {
         </div>
 
 
-        <div className='ensaio'>
-          <div className='img-after duda'>
+        <div className='ensaio' data-aos="fade-up">
+          <div className='img-after duda' >
             <img src="./duda.jpg" alt="" />
           </div>
-          <div className='ensaio-desc'>
+          <div className='ensaio-desc' data-aos="fade-up">
             <p className='title'>Eduarda Bolzan</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Ensaio pessoal</p>
           </div>
         </div>
 
-        <div className='ensaio'>
+        <div className='ensaio' data-aos="fade-up">
           <div className='img-after'>
-            <img src="./festivalCinema.JPG" alt="" />
+            <img src="./festivalCinema.jpg" alt="" />
           </div>
           <div className='ensaio-desc'>
             <p className='title'>52º Festival de Cinema de Gramado</p>
@@ -66,7 +72,7 @@ function App() {
           </div>
         </div>
 
-        <div className='ensaio'>
+        <div className='ensaio' data-aos="fade-up">
           <div className='img-after'>
             <img src="./aniversarioLuiza.jpg" alt="" />
           </div>
@@ -77,7 +83,7 @@ function App() {
           </div>
         </div>
 
-        <div className='ensaio'>
+        <div className='ensaio' data-aos="fade-up">
           <div className='img-after'>
             <img src="./GiovanaEFernando.jpg" alt="" />
           </div>
