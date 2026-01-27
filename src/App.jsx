@@ -54,7 +54,7 @@ function App() {
           <div className='img-after duda' >
             <img src="./duda.jpg" alt="" />
           </div>
-          <div className='ensaio-desc' data-aos="fade-up">
+          <div className='ensaio-desc'>
             <p className='title'>Eduarda Bolzan</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Ensaio pessoal</p>
